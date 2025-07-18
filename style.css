@@ -7,7 +7,7 @@ body {
     font-family: 'Verdana', sans-serif;
 }
 
-h1 {
+.title {
     text-align: center;
     font-family: monospace;
     border: 2px black solid;
@@ -31,4 +31,12 @@ li {
 
 .recipelist a:hover {
     color: orange;
+}
+
+.recipeimage {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2px;
+    background-color: white; 
 }
